@@ -32,7 +32,7 @@ public class day1 {
         String pagecontent = driver.getPageSource();
         String search="data";
         if (pagecontent.toLowerCase().indexOf(search.toLowerCase()) != -1) {
-            System.out.println("OK");
+            System.out.println("Pipeline");
         }else {
             System.out.println("Error Webpage content");
         }
